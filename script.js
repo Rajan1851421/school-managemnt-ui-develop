@@ -53,4 +53,15 @@ function closeModal() {
     modal.style.display = "none";
 }
 
+// Apply Zoom In effect
+function zoomIn() {
+    var modalImg = document.getElementById("img01");
+    modalImg.classList.toggle("zoomed");
+  }
+
+
+//   enquery form
+
+
+
 
