@@ -60,7 +60,16 @@ function zoomIn() {
   }
 
 
-//   enquery form
+//   gallery image slider
+
+
+        // Activate the carousel
+        document.addEventListener("DOMContentLoaded", function () {
+            var myCarousel = new bootstrap.Carousel(document.getElementById('imageCarousel'), {
+                interval: 2000 // Change slide every 2 seconds
+            });
+        });
+   
 
 
 

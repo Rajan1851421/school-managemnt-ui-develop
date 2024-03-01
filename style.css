@@ -418,4 +418,11 @@ text-decoration:none;
     margin-top: 0;
     padding-left: 0 !important
 }
+
+/* galerry slider css in home page */
+.carousel_item img {
+    max-height: 350px;
+    width: auto !important;
+    margin: auto;
+}
   
