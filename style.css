@@ -6,33 +6,7 @@ body {
 
 }
 
-.notice {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-    background-color: chocolate;
-}
 
-.notice p {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    animation: move 15s infinite;
-}
-
-@keyframes move {
-    0% {
-        top: calc(100% - 2em);
-    }
-
-    100% {
-        top: 0;
-    }
-}
 
 .gallery-text {
     transition: transform 0.9s ease-in-out;
