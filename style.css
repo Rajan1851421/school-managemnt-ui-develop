@@ -400,3 +400,22 @@ text-decoration:none;
     margin: auto;
 }
   
+
+/* aoutbackground image */
+
+.about-back-image {
+    background-repeat: no-repeat;
+    background-size: cover;   
+    position: relative; /* Ensure proper positioning for overlaying content */
+    padding-top: 70%;
+    height: 50%;
+}
+
+/* logn form */
+
+
+
+
+
+
+
