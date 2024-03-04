@@ -10,20 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/blogs/blog-4/assets/css/blog-4.css">
 
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>SMS</title>
-    <style>
-        .text-blur {
-            background-color: rgba(60, 61, 60, 0.498);
-            /* Adjust opacity as needed */
-            backdrop-filter: blur(1px);
-            /* Adjust blur radius as needed */
-            padding: 15px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-    </style>
+
 
 </head>
 
@@ -55,7 +48,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
+                <ul class="navbar-nav mx-auto px-4">
                     <li class="nav-item mx-2 ">
                         <a class="nav-link text-light fw-bold" href="index.html">Home <span
                                 class="sr-only">(current)</span></a>
@@ -159,76 +152,197 @@
         <!-- main body  -->
         <main>
             <div class="d-flex justify-content-center my-4">
-                <div class=" container banner_image">
+                <!-- <div class=" container banner_image">
                     <h1 class="border border-seconday p-2"> 𝐀𝐛𝐨𝐮𝐭 𝐔𝐬</h1>
-                </div>
+                </div> -->
 
             </div>
 
-            <div class="container-fluid p-0">
-                <div class="h-50vh cover about-back-image"
-                    style="background-image: url('https://images.pexels.com/photos/357271/pexels-photo-357271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+            <div class="container">
+                <!-- About 4 - Bootstrap Brain Component -->
+                <!-- Blog 4 - Bootstrap Brain Component -->
+                <section class="py-3 py-md-5 py-xl-8">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12 text-center mt-5">
-                                <div class="text-blur text-light">
-                                    <h1 class="text-light">Who Are We?</h1>
-                                    <p class="lead fs-1 text-start text-lg-center text-md-center text-xl-center
-                                     fs-md-4 fs-lg-4 fs-xl-4 fw-md-bold fw-lg-bold fw-xl-bold text-light mb-3 ">
-                                        We help people to build incredible brands and superior products. Our perspective
-                                        is to furnish outstanding captivating services........
-                                    </p>
-
-                                    <div class="row gy-4 gy-md-0 gx-xxl-5X">
-                                        <div class="col-12 col-md-6">
-                                            <div class="d-flex">
-                                                <div class="me-4 text-primary">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                                                        fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
-                                                    </svg>
-                                                </div>
-                                                <div>
-                                                    <h2 class="h4 mb-3">Versatile Brand</h2>
-                                                    <p class="text-secondary mb-0">We are crafting a digital method that
-                                                        subsists
-                                                        life across all mediums.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-6">
-                                            <div class="d-flex">
-                                                <div class="me-4 text-primary">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-                                                        fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
-                                                        <path
-                                                            d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
-                                                    </svg>
-                                                </div>
-                                                <div>
-                                                    <h2 class="h4 mb-3">Digital Agency</h2>
-                                                    <p class="text-secondary mb-0">We believe in innovation by merging
-                                                        primary
-                                                        with elaborate ideas.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="col-12 col-md-10 col-lg-8">
+                                <h3 class="fs-5 mb-2 text-secondary text-uppercase">About Me</h3>
+                                <h2 class="display-5 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Doloribus, sequi.</h2>
+                                <a href="/contact.html" type="button"
+                                    class="btn btn-lg btn-primary mb-3 mb-md-4 mb-xl-5">Contact
+                                    us</a>
                             </div>
                         </div>
                     </div>
-                </div>
+
+                    <div class="container overflow-hidden">
+                        <div class="row gy-4 gy-lg-0">
+                            <div class="col-12 col-lg-6">
+                                <article>
+                                    <div class="card border-0">
+                                        <figure class="card-img-top m-0 overflow-hidden bsb-overlay-hover">
+                                            <a href="#!">
+
+                                                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy"
+                                                    src="image/schoolbuilding.jpg" alt="Business">
+                                            </a>
+                                            <figcaption>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                                    fill="currentColor"
+                                                    class="bi bi-eye text-white bsb-hover-fadeInLeft"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                                    <path
+                                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                                </svg>
+                                                <h4 class="h6 text-white bsb-hover-fadeInRight mt-2">Read More</h4>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="card-body border bg-white p-4">
+                                            <div class="entry-header mb-3">
+                                                <ul class="entry-meta list-unstyled d-flex mb-2">
+                                                    <li>
+                                                        <a class="link-primary text-decoration-none"
+                                                            href="#!">Business</a>
+                                                    </li>
+                                                </ul>
+                                                <h2 class="card-title entry-title h4 mb-0">
+                                                    <a class="link-dark text-decoration-none" href="#!">Critical Steps
+                                                        for Buying a Business</a>
+                                                </h2>
+                                            </div>
+                                            <p class="card-text entry-summary text-secondary mb-3">
+                                                Buying an existing business can be an exciting experience for
+                                                entrepreneurs. Before you decide whether to pursue this endeavor, it's
+                                                essential to understand the process of purchasing a business.
+                                            </p>
+                                            <a href="#!" class="btn btn-primary m-0 text-nowrap entry-more">Read
+                                                More</a>
+                                        </div>
+                                        <div class="card-footer border border-top-0 bg-light p-4">
+                                            <ul class="entry-meta list-unstyled d-flex align-items-center m-0">
+                                                <li>
+                                                    <a class="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                                        href="#!">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                            fill="currentColor" class="bi bi-calendar3"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                                            <path
+                                                                d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                                        </svg>
+                                                        <span class="ms-2 fs-7">7 Feb 2024</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <span class="px-3">&bull;</span>
+                                                </li>
+                                                <li>
+                                                    <a class="link-secondary text-decoration-none d-flex align-items-center"
+                                                        href="#!">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                            fill="currentColor" class="bi bi-chat-dots"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                                            <path
+                                                                d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                                                        </svg>
+                                                        <span class="ms-2 fs-7">83</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <article>
+                                    <div class="card border-0">
+                                        <figure class="card-img-top m-0 overflow-hidden bsb-overlay-hover">
+                                            <a href="#!">
+                                                <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy"
+                                                    src="image/schoolbuilding.jpg" alt="Living">
+                                            </a>
+                                            <figcaption>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                                    fill="currentColor"
+                                                    class="bi bi-eye text-white bsb-hover-fadeInDown"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                                                    <path
+                                                        d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                                                </svg>
+                                                <h4 class="h6 text-white bsb-hover-fadeInUp mt-2">Read More</h4>
+                                            </figcaption>
+                                        </figure>
+                                        <div class="card-body border bg-white p-4">
+                                            <div class="entry-header mb-3">
+                                                <ul class="entry-meta list-unstyled d-flex mb-2">
+                                                    <li>
+                                                        <a class="link-primary text-decoration-none"
+                                                            href="#!">Living</a>
+                                                    </li>
+                                                </ul>
+                                                <h2 class="card-title entry-title h4 mb-0">
+                                                    <a class="link-dark text-decoration-none" href="#!">Earning 6
+                                                        Figures in Your 20s</a>
+                                                </h2>
+                                            </div>
+                                            <p class="card-text entry-summary text-secondary mb-3">
+                                                Learn how a marketing coach earned six figures by 20, primarily through
+                                                1:1 sales. Her insights provide valuable guidance for other
+                                                entrepreneurs seeking to connect with their audience effectively.
+                                            </p>
+                                            <a href="#!" class="btn btn-primary m-0 text-nowrap entry-more">Read
+                                                More</a>
+                                        </div>
+                                        <div class="card-footer border border-top-0 bg-light p-4">
+                                            <ul class="entry-meta list-unstyled d-flex align-items-center m-0">
+                                                <li>
+                                                    <a class="fs-7 link-secondary text-decoration-none d-flex align-items-center"
+                                                        href="#!">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                            fill="currentColor" class="bi bi-calendar3"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                                                            <path
+                                                                d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                                        </svg>
+                                                        <span class="ms-2 fs-7">12 Aug 2024</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <span class="px-3">&bull;</span>
+                                                </li>
+                                                <li>
+                                                    <a class="link-secondary text-decoration-none d-flex align-items-center"
+                                                        href="#!">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                            fill="currentColor" class="bi bi-chat-dots"
+                                                            viewBox="0 0 16 16">
+                                                            <path
+                                                                d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                                            <path
+                                                                d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+                                                        </svg>
+                                                        <span class="ms-2 fs-7">67</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </div>
-
-
-
-
-
-
-
-
 
 
         </main>
@@ -262,7 +376,15 @@
                                         us</p>
                                     <div class="form-group">
                                         <input type="email" placeholder="Enter Your Email" class="form-control">
-                                        <button class="button-design my-2 float-start">Subscribe us</button>
+                                        <button class="button-design my-2 float-start" style="
+                                         background-color: #4158D0;
+                                            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+                                            border-radius: 25px;
+                                            cursor: pointer;
+                                            outline: none;
+                                            border: none;
+                                            padding: 10px 20px;
+                                            font-weight: 700;">Subscribe us</button>
                                     </div>
 
                                 </div>

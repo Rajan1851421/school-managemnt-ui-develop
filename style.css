@@ -74,7 +74,7 @@ body {
 
 .card[data-background="image"] .title,
 .card[data-background="image"] .stats,
-.card[data-background="image"] .category,
+.card[data-background="image"] .category
 .card[data-background="image"] .description,
 .card[data-background="image"] .content,
 .card[data-background="image"] .card-footer,
@@ -401,17 +401,6 @@ text-decoration:none;
 }
   
 
-/* aoutbackground image */
-
-.about-back-image {
-    background-repeat: no-repeat;
-    background-size: cover;   
-    position: relative; /* Ensure proper positioning for overlaying content */
-    padding-top: 70%;
-    height: 50%;
-}
-
-/* logn form */
 
 
 
